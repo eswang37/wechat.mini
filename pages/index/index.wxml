@@ -1,0 +1,21 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <image bindtap="bindViewTap" class="userinfo-photo" src="../../resource/imgs/photo.jpg" mode="cover"></image>
+    <text class="userinfo-nickname">Tony Wang</text>
+  </view>
+  <view>
+    <text class="services">品学兼优高中生</text>
+  </view>  
+  <view>
+    <text class="services">愿意为您的孩子提供学业上的帮助 </text>
+  </view>
+  <view>
+    <text class="services">$25/小时</text>
+  </view>
+
+  <view bindtap="onShareAppMessage">
+    <button class="share-btn" open-type="share" type="primary">推荐</button>
+  </view>
+
+</view>

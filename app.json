@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/about/about",
+    "pages/courses/courses"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Tutoring 英语数学",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#5c5c5c",
+    "selectedColor": "#72BEC7",
+    "backgroundColor": "#f9f9f9",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "resource/imgs/tutor_on.png",
+        "selectedIconPath": "resource/imgs/tutor.png"
+        
+      },
+      {
+        "pagePath": "pages/courses/courses",
+        "text": "课程",
+        "iconPath": "resource/imgs/education.png",
+        "selectedIconPath": "resource/imgs/education_on.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "联系",
+        "iconPath": "resource/imgs/about.png",
+        "selectedIconPath": "resource/imgs/about_on.png"
+      }
+    ]
+  }
+}

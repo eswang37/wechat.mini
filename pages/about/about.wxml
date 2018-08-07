@@ -1,0 +1,11 @@
+<view class="container">
+  <view>
+    <image src="../../resource/imgs/qrcode.png"></image>
+  </view>
+  <view>
+    <text class="services">Tony Wang</text>
+  </view>
+  <view bindtap="onShareAppMessage">
+    <button class="share-btn" open-type="share" type="primary">推荐 </button>
+  </view>
+</view>

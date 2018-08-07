@@ -1,0 +1,19 @@
+<!--pages/courses/courses.wxml-->
+<view class="table">
+  <view class="tr bg-w">
+    <view class="th">课程列表</view>
+    <view class="th">Courses</view>
+  </view>
+  <block wx:key="{{idx}}"
+  wx:for="{{courses}}" wx:for-index="idx" wx:for-item="course">
+    <view class="tr bg-g" wx:if="{{idx % 2 == 0}}">
+      <view class="td">{{course.title_cn}}</view>
+      <view class="td">{{course.title}}</view>
+    </view>
+     <view class="tr bg-g" wx:else>
+      <view class="td">{{course.title_cn}}</view>
+      <view class="td">{{course.title}}</view>
+    </view>
+  </block>
+
+</view>
